@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding-block: 8px;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+}
+
+.barra-pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.barra-pesquisa input{
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+
+.barra-pesquisa button{
+    height: 80%;
+    width: 20%;
+}
+
+.container-galeria{
+    display: column;
+    columns: 4;
+    height: 100%;
+}
+
+.container-galeria img{
+   width: 100%;
+   padding-block: 8px;
+}
