@@ -34,8 +34,10 @@ header{
 }
 
 .container-galeria{
-    display: column;
-    columns: 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-between;
     height: 100%;
 }
 
