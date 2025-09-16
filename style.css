@@ -7,19 +7,28 @@
 body{
     height: 100vh;
     padding-block: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header{
-    width: 100%;
-    height: 40px;
+.galeria-box{
+    height: 100%;
+    width: 80%;
+    display: grid;
+    padding: 12px;
+    border-radius: 8px;
+    border-color: black;
 }
 
 .barra-pesquisa{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 78%;
+    height: 4%;
+    position: fixed;
+    
 }
 
 .barra-pesquisa input{
@@ -29,8 +38,8 @@ header{
 }
 
 .barra-pesquisa button{
-    height: 80%;
     width: 20%;
+    height: 80%;
 }
 
 .container-galeria{
@@ -38,10 +47,13 @@ header{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     justify-content: space-between;
-    height: 100%;
+    height: 80%;
+    padding-top: 32px;
 }
 
 .container-galeria img{
    width: 100%;
+   height: 100%;
    padding-block: 8px;
+   position: relative;
 }
